@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://wallpapercave.com/uwp/uwp1843208.jpeg");
+  font-family: "Montserrat", sans-serif;
+}
+
+
+.main-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ip-display, .location-display, .geo-display {
+  font-size: calc(2rem + 1vw)
+}
+
+.lookup-btn {
+  border: none;
+  background: #ff3838;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 0.8rem 1.5rem;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: opacity 250ms linear;
+
+}
+
+.lookup-btn:hover { 
+  opacity: 0.8;
+}
+
+.uptext {
+  font-family: Lobster;
+  font-weight: 700;
+  font-size: 1.2rem;
+  position: absolute;
+  bottom: 30px;
+  right: 19px;
+  left: 1225px;
+}
+
+.btt {
+  font-family: Comfortaa;
+  font-size: 1.001rem;
+  position: absolute;
+  bottom: 10px;
+  right: 19px;
+  left: 1225px;
+}
+
+.tick {
+  display: inline-block;
+  height: 100px;
+  width: 35px;
+  border-bottom: 10px solid chartreuse;
+  border-right: 10px solid chartreuse;
+  transform: rotate(45deg);
+}
+
