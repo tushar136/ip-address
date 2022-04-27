@@ -2,6 +2,7 @@ const lookupBtn = document.querySelector(".lookup-btn");
 const ipDisplay = document.querySelector(".ip-display");
 const locationDisplay = document.querySelector(".location-display");
 const geoDisplay = document.querySelector(".geo-display");
+const btnn = document.querySelector(".btnn")
 
 
 lookupBtn.addEventListener("click", () => {
@@ -12,6 +13,8 @@ lookupBtn.addEventListener("click", () => {
    ${response.data.region}, ${response.data.country}`;
 
    geoDisplay.textContent = `Geo Location: ${response.data.latitude}, ${response.data.longitude}`;
+
+
 
 
 });
